@@ -10,3 +10,18 @@ function showFirstMessage(text) {
 
 showFirstMessage('Hello World!')
 console.log(num)
+
+function calc(a, b) {
+    return (a + b)
+}
+
+console.log(`${calc(5, 2)}\n${calc(5, 5)}\n${calc(5, 10)}`)
+
+
+const logger = function() {
+    console.log('Hello')
+}
+
+logger()
+
+

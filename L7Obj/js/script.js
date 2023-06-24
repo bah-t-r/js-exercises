@@ -31,4 +31,4 @@ console.log(options.len(options))
 
 // Деструктуризация
 const {border, bg} = options.colors
-console.log(border, bg)
+console.log(bg, border)

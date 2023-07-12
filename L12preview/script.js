@@ -28,7 +28,7 @@ const btns = document.querySelectorAll('button'),
 //     console.log(event.target)
 //     event.target.remove()
 // })
-// console.log(btn[0].remove())
+// console.log(btns[0].remove())
 
 // btn.addEventListener('click', (e) => {
 //     e.target.remove()

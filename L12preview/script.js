@@ -26,9 +26,9 @@ const btns = document.querySelectorAll('button'),
 //     // alert('Hover')
 //     // console.log(event)
 //     console.log(event.target)
-//     event.target.remove()
+//     event.target.remove() // Удаляется по событию
 // })
-// console.log(btns[0].remove())
+// console.log(btns[0].remove()) // Удаляется сразу (вне зависимости от событии)
 
 // btn.addEventListener('click', (e) => {
 //     e.target.remove()
